@@ -4,12 +4,15 @@ title: knurd.in - blog posts
 ---
 
 <div id="chunk">
-  <h1>Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="stuff">
+        {% for post in site.posts %}
+        <div>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p><span class="date">{{ post.date | date_to_string }}</span>: &nbsp;
+          <small> {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</p>' }} </small></p>
+        </div>
+        {% endfor %}
+  </div>
 
 </div>
 
