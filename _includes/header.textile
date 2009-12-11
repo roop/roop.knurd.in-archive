@@ -1,10 +1,10 @@
 <div id="topbar">
     <div id="topbarcontent">
-        <a href="http://linkedin.com/in/roopeshchander" title="LinkedIn"><img src="icons/LinkedIn.png"/></a>
-        <a href="http://flickr.com/photos/roop" title="Flickr"><img src="icons/Flickr.png"/></a>
-        <a href="http://facebook.com/roopeshchander" title="Facebook"><img src="icons/Facebook.png"/></a>
-        <a href="http://forwardbias.in/aboutus" title="My workplace"><img src="icons/Forwardbias.png"/></a>
-        <a href="http://twitter.com/roopeshchander" title="Twitter"><img src="icons/Twitter.png"/></a>
+        <a href="http://linkedin.com/in/roopeshchander" title="LinkedIn"><img src="/icons/LinkedIn.png"/></a>
+        <a href="http://flickr.com/photos/roop" title="Flickr"><img src="/icons/Flickr.png"/></a>
+        <a href="http://facebook.com/roopeshchander" title="Facebook"><img src="/icons/Facebook.png"/></a>
+        <a href="http://forwardbias.in/aboutus" title="My workplace"><img src="/icons/Forwardbias.png"/></a>
+        <a href="http://twitter.com/roopeshchander" title="Twitter"><img src="/icons/Twitter.png"/></a>
         <span>roopeshchander@gmail.com</span>
     </div>
 </div> <!-- topbar -->
