@@ -1,0 +1,175 @@
+
+/* First, state the obvious */
+td{margin:0; padding:0}
+table{border-collapse:collapse; border-spacing:0}
+fieldset, img{border:0}
+address, caption, cite, code, dfn, em, strong, th, var{font-style:normal; font-weight:normal}
+ol, ul, li{list-style:none}
+caption, th{text-align:left}
+h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal}
+q:before, q:after{content:''}
+strong{font-weight:bold}
+em{font-style:italic}
+a img{border:none}
+h1, h2, h3, h5, h5, h6{font-weight:bold}
+
+/* Set out the link colors */
+p a, p a:visited, li a, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited {
+	color: #23aebb;
+	text-decoration:none
+}
+
+p a:hover, li a:hover, h1 a:hover, h2 a:hover, h3 a:hover, li.active a {
+	color: #23aebb;
+	text-decoration: none;
+    background-color: #e9e9e9;
+}
+
+/* Then, our stuff */
+html, body {
+	height:100%;
+}
+
+body { 
+    margin: 0px;
+	font-size: 62.5%; 
+	font-family: Verdana, Arial, sans-serif; 
+	color:#000;
+}
+
+#container {
+	width:900px; 
+	padding: 20px;
+    margin: 0 auto;
+    /* border: dotted 1px; */
+}
+
+#topbar {
+    margin: 0px;
+    padding: 0px;
+    height:30px;
+    background-color: #1a1a1a;
+    width:100%;
+}
+
+#topbarcontent {
+    margin-right: 100px;
+}
+
+#topbar img{ 
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+#topbar span {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #8f8f8f;
+    font-size:1.1em;
+}
+
+#dictionaryknurd {
+    font-family: Georgia, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-top: 50px;
+    font-size: 1.4em;
+    width: 300px;
+    color: gray;
+}
+
+#wordknurd {
+    font-weight: 300;
+    font-size: 1.6em;
+    margin-right: 5px;
+    color: #1a1a1a;
+    text-shadow: 2px 2px 3px #888;
+}
+
+#navbar { float:right; margin-top: -40px; } 
+#navbar li { border:0; font-size: 2em; margin: 5px; float:left; margin-left:24px; list-style: none; }
+#navbar li a { margin:0; padding:0; border: 0; text-decoration: none; color: #000; background: none;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.1)));
+}
+#navbar li a:hover { border:none; -webkit-mask-image: none; color: #23aebb; }
+#navbar li.active a { border:none; color: #23aebb; }
+
+#content {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #000;
+}
+
+#content h1, #content h1 a, #content h2, #content h2 a {
+	border-top: 1px solid #e9e9e9;
+	padding: 6px;	
+	margin-bottom: 5px;
+    margin-top:22px;
+    font-weight:bold;
+    color: #23aebb;
+}
+
+#content h1 a:hover, #content h2 a:hover, #content h3 a:hover {
+}
+
+#content h1 { font-size:1.4em; text-shadow: 1px 1px 3px #aaa; }
+#content h2 { font-size:1.3em; text-shadow: 1px 1px 3px #aaa; }
+#content h3 { font-size:1.2em; text-shadow: 1px 1px 3px #aaa; }
+
+#chunk {
+    float: left;
+    width: 600px;
+    /* border: dotted 1px gray; */
+}
+
+#sidebar{
+    float: right;
+	width: 280px;
+    /* border: dotted 1px gray; */
+}
+
+#sidebar li {
+    margin-bottom: 15px;
+}
+
+.date, .date p {
+    margin-left: 15px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.stuff, .stuff p {
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 1em;
+    color: #000;
+}
+
+#footer {
+	border-top: 1px solid #e9e9e9;
+    float: left;
+    width: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+#footer p, #footer span, #footer a, #footer img {
+    margin-left: 5px;
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-right {
+    float: right;
+}
+
+#footer a { color: #666; text-decoration: none; }
+#footer a:hover { color: #23aebb; text-decoration: none; }
+
