@@ -1,0 +1,9 @@
+<div id="navbar">
+    <ul>
+        <li class="active"><a href="/">home</a></li> 
+        <li><a href="/blog/">blog</a></li> 
+        <!--<li><a href="/code/">code</a></li> 
+        <li><a href="/arbit/">noneoftheabove</a></li> -->
+    </ul> 
+</div> <!-- navbar -->
+

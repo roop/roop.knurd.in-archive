@@ -1,0 +1,24 @@
+<div id="topbar">
+    <div id="topbarcontent">
+        <a href="http://linkedin.com/in/roopeshchander" title="LinkedIn"><img src="icons/LinkedIn.png"/></a>
+        <a href="http://flickr.com/photos/roop" title="Flickr"><img src="icons/Flickr.png"/></a>
+        <a href="http://facebook.com/roopeshchander" title="Facebook"><img src="icons/Facebook.png"/></a>
+        <a href="http://forwardbias.in/aboutus" title="My workplace"><img src="icons/Forwardbias.png"/></a>
+        <a href="http://twitter.com/roopeshchander" title="Twitter"><img src="icons/Twitter.png"/></a>
+        <span>roopeshchander@gmail.com</span>
+    </div>
+</div> <!-- topbar -->
+
+<div id="top">
+    <div id="dictionaryknurd">
+        <span id="wordknurd">knurd</span>
+            <span id="dictionaryentry">
+                <b><i>-adj</i></b>
+                being temporarily unintoxicated with Klatchian Coffee
+                to such an extent that all usual illusions are stripped
+                away from the mind
+            </span>
+        </div>
+    </div>
+</div> <!-- top -->
+

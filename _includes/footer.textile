@@ -1,0 +1,13 @@
+<div id="footer">
+    <div id="footer-left">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="CC License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+    </div>
+    <div id="footer-left">
+        <span>All work Copyright © 2005-09 Roopesh Chander.</span>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Some rights reserved.</a>
+    </div>
+    <div id="footer-right">
+        Best viewed in a <a href="http://en.wikipedia.org/wiki/List_of_web_browsers#WebKit-based_browsers">webkit browser</a>
+    </div>
+</div> <!-- footer -->
+
