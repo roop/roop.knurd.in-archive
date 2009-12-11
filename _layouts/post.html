@@ -1,9 +1,12 @@
 ---
 layout: base
 ---
-
 <div id="chunk">
-    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+    <h1>
+        <a href="{{ page.previous.url }}">&laquo;</a>
+        {{ page.title }}
+        <a href="{{ page.next.url }}">&raquo;</a>
+    </h1>
     <div class="date">{{ page.date | date_to_string }}</div>
     <div class="stuff">
         <p>
