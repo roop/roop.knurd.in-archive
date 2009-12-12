@@ -3,6 +3,8 @@ layout: base
 title: knurd.in - roop's home
 ---
 
+{% include home_sidebar.textile %}
+
 {% for post in site.posts limit:1 %}
 <div id="chunk">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
