@@ -3,9 +3,9 @@ layout: base
 ---
 <div id="chunk">
     <h1>
-        <a href="{{ page.previous.url }}">&laquo;</a>
+        <a href="{{ page.previous.url }}" title="Previous post">&laquo;</a>
         {{ page.title }}
-        <a href="{{ page.next.url }}">&raquo;</a>
+        <a href="{{ page.next.url }}" title="Next post">&raquo;</a>
     </h1>
     <div class="date">{{ page.date | date_to_string }}</div>
     <div class="stuff">
