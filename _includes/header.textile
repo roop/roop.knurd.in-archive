@@ -12,13 +12,12 @@
 <div id="top">
     <div id="dictionaryknurd">
         <span id="wordknurd">knurd</span>
-            <span id="dictionaryentry">
-                <b><i>-adj</i></b>
-                being temporarily unintoxicated with Klatchian Coffee
-                to such an extent that all usual illusions are stripped
-                away from the mind
-            </span>
-        </div>
+        <span id="dictionaryentry">
+            <b><i>-adj</i></b>
+            being temporarily unintoxicated with Klatchian Coffee
+            to such an extent that all usual illusions are stripped
+            away from the mind
+        </span>
     </div>
 </div> <!-- top -->
 
