@@ -8,6 +8,7 @@ layout: base
         <a href="{{ page.next.url }}" title="Next post">&raquo;</a>
     </h1>
     <div class="date">{{ page.date | date_to_string }}</div>
+    <a href="{{ page.url }}#disqus_thread">permalink</a>
     <div class="stuff">
         <p>
            {{ page.content }}
@@ -15,3 +16,22 @@ layout: base
     </div>
 </div>
 
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="http://disqus.com/forums/knurd/embed.js"></script>
+<noscript><a href="http://disqus.com/forums/knurd/?url=ref">View the discussion thread.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/knurd/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
