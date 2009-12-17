@@ -82,6 +82,10 @@ body {
     color: gray;
 }
 
+.comment-count {
+    font-size: 0.8em;
+}
+
 #wordknurd {
     font-weight: 300;
     font-size: 1.6em;
