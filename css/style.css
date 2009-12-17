@@ -104,8 +104,11 @@ body {
     color: #000;
 }
 
-#content h1, #content h1 a, #content h2, #content h2 a {
+.subsection {
 	border-top: 1px solid #e9e9e9;
+}
+
+#content h1, #content h1 a, #content h2, #content h2 a {
 	padding: 6px;	
 	margin-bottom: 5px;
     margin-top:22px;
