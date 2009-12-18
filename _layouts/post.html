@@ -9,14 +9,26 @@ layout: base
     </h1>
     <p>
         <span class="date">{{ page.date | date_to_string }}</span> by roop &nbsp;
-        <a class="comment-count" href="{{ page.url }}#disqus_thread"></a>
+        <a class="comment-count" href="{{ page.url }}#disqus_thread"
+            onClick="show('comments');return true;"></a>
     <p>
     <div class="stuff">
         <p>
            {{ page.content }}
         </p>
+        <p>
+            <a href="#" id="comments-show-link" class="show-hide-link"
+                onClick="show('comments');return false;">&#9656;<!--right arrow--></a>
+            <a href="#" id="comments-hide-link" class="show-hide-link" style="display: none;"
+                onClick="hide('comments');return false;">&#9662;<!--down arrow--></a>
+            <a class="comment-count" href="{{ page.url }}#disqus_thread"
+                onClick="show('comments');return true;"></a>
+            <div id="comments" class="show-hide-able" style="display: none;">
 <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/knurd/embed.js"></script><noscript><a href="http://disqus.com/forums/knurd/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </p>
+
     </div>
 </div>
 
-
+<script type="text/javascript" src="/js/showHide.js"></script>
