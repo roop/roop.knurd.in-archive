@@ -1,21 +1,10 @@
 ---
-layout: base
+layout: blog
 title: knurd.in - blog posts
 categories: blog
 ---
 
 {% include home_sidebar.textile %}
 
-<div id="chunk">
-  <div class="stuff">
-        {% for post in site.posts %}
-        <div class="subsection">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p><span class="date">{{ post.date | date_to_string }}</span>: &nbsp;
-          {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</p>' }}</p>
-        </div>
-        {% endfor %}
-  </div>
-
-</div>
+{{ content }}
 
