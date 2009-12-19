@@ -1,1 +1,2 @@
 server_port: 8080
+permalink: /:categories/:year/:month/:title.html
