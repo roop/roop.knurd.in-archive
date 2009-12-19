@@ -1,0 +1,49 @@
+--- 
+name: making-of-knurd
+layout: post
+title: The Making of Knurd
+time: 2009-05-25 03:07:00 +05:30 ???
+---
+
+<h3>Jekyll</h3>
+
+'Blogging from the commandline? Yay!' is what I thought of
+<a href="http://jekyllrb.com/">Jekyll</a>
+when it swam into my ken, so as to say. <br/> <br/>
+
+Jekyll is an übersimple blog generator, and by virtue of being übersimple
+gives you a lot of control. You write posts as html-lets in files and
+Jekyll converts them into a static html site. Host the static files
+someplace, and lo! you have your blog. 
+<a href="http://github.com/">Github</a> can do the hosting for you,
+and best part is, Github does both publishing and version control for
+the blog at one shot. Yeah, with 
+<a href="http://git-scm.com/">the best version controller in the world</a>.
+Sure, you do all this from the bash command line. 
+Erm, you do use the browser, but only to preview what your post will
+look like. <br/> <br/>
+
+So I wanted to give Jekyll a try and host a blog at 
+<a href="http://knurd.in/">knurd.in</a>
+(yeah, I was pretty much addicted to
+<a href="http://wiki.lspace.org/">Pratchett</a> when I'd registered that 
+domain). After I import 
+<a href="http://roop.blogspot.com/">my blogspot</a> posts
+using <a href="http://github.com/mojombo/jekyll/issues#issue/24">
+this rss importer</a>, create the
+<a href="http://www.liquidmarkup.org/">Liquid</a> templates and
+<code>git push</code> to Github, I have the site working at
+<a href="http://roop.github.com/">roop.github.com</a>. <br/> <br/>
+
+<h3>Google App Engine</h3>
+
+But to tie it to the knurd.in domain, I find
+that I have to pay Github (horror).
+They don't ask for much, but I do prefer free over inexpensive,
+thank you. So I turn to <a href="http://appspot.com/">Google App Engine</a>
+to host the static html that Jekyll generates. All it takes is a simple
+<a href="http://github.com/roop/roop.github.com/blob/c7f9f4020e1da210f1bfa57ffba1fc7eb6ae3bdf/app.yaml">app.yaml</a>. <br/> <br/>
+
+
+
+
