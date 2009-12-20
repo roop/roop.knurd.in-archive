@@ -8,7 +8,7 @@ layout: base
         <div class="subsection">
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <p><span class="date">{{ post.date | date_to_string }}</span>: &nbsp;
-          {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</p>' }}</p>
+          {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</a>' }}</p>
         </div>
         {% endfor %}
   </div>
