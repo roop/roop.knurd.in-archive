@@ -3,9 +3,13 @@ layout: base
 ---
 <div id="chunk">
     <h1>
+        {% if page.previous %}
         <a href="{{ page.previous.url }}" title="Previous post">&laquo;</a>
+        {% endif %}
         {{ page.title }}
+        {% if page.next %}
         <a href="{{ page.next.url }}" title="Next post">&raquo;</a>
+        {% endif %}
     </h1>
     <p>
         <span class="date">{{ page.date | date_to_string }}</span> by roop &nbsp;
