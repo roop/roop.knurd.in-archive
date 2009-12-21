@@ -9,7 +9,8 @@ time: 2009-05-25 03:07:00 +05:30 ???
 
 'Blogging from the commandline? Yay!' is what I thought of
 <a href="http://jekyllrb.com/">Jekyll</a>
-when it swam into my ken, so as to say. <br/> <br/>
+when it swam into my ken, so as to say.
+<br/> <br/>
 
 Jekyll is an übersimple blog generator, and by virtue of being übersimple
 gives you a lot of control. You write posts as html-lets in files and
@@ -21,7 +22,8 @@ the blog at one shot. True, that means versioning with
 <a href="http://git-scm.com/">the best version controller in the world</a>.
 And sure, you do all this from the bash command line. 
 Erm, you do use the browser, but only to preview what your post will
-look like. <br/> <br/>
+look like.
+<br/> <br/>
 
 So when I wanted to put up a website for myself at
 <a href="http://knurd.in/">knurd.in</a>
@@ -34,17 +36,56 @@ using <a href="http://github.com/mojombo/jekyll/issues#issue/24">
 this rss importer</a>, create the
 <a href="http://www.liquidmarkup.org/">Liquid</a> templates and
 <code>git push</code> to Github, I have the site working at
-<a href="http://roop.github.com/">roop.github.com</a>. <br/> <br/>
+<a href="http://roop.github.com/">roop.github.com</a>.
+<br/> <br/>
 
 <h3>Google App Engine</h3>
 
 But to tie it to the knurd.in domain, I find
 that I have to pay Github (horror).
-They don't ask for much, but I do prefer free over inexpensive,
-thank you. So I turn to <a href="http://appspot.com/">Google App Engine</a>
+They don't ask for much, but there are times when I prefer free over
+cheap, and this is one of them.
+So I turn to <a href="http://appspot.com/">Google App Engine</a>
 to host the static html that Jekyll generates. All it takes is a simple
-<a href="http://github.com/roop/roop.github.com/blob/c7f9f4020e1da210f1bfa57ffba1fc7eb6ae3bdf/app.yaml">app.yaml</a>. <br/> <br/>
+<a href="http://github.com/roop/roop.github.com/blob/c7f9f4020e1da210f1bfa57ffba1fc7eb6ae3bdf/app.yaml">app.yaml</a>.
+<br/><br/>
 
+But while I just had to do a <code>git push</code> with Github (which
+will call jekyll in the server side with a git hook), I now have
+two more commands to run: One, <code>jekyll</code> to generate the
+static site and two, <code>appcfg.py update</code> to push the site
+to our Google App. Mmm, I guess I can live with that.
+<br/> <br/>
 
+<h3>Disqus</h3>
 
+Next in line: Comments. How does a static site support dynamic content
+like comments? Enter <a href="http://disqus.com/">Disqus</a>, which seems
+to be a popular choice among current Jekyll users. They store your comments
+for you, and if you add some html-lets in your template, they can insert 
+the comments into your page. Nice javascript trick, heh?
+<br/> <br/>
+
+But I want my existing comments, though they are few and far between. So
+I try the Blogger importer that Disqus provides. It contacts blogger and
+gets the comments but thinks they are in the roop.blogspot.com domain,
+so they don't appear at knurd.in. I have to tell it somehow that the urls
+of the posts have changed. I export the xml out of Disqus, edit the XML 
+and change the domain. But, hey, I can't import it back into Disqus -
+it only imports from elsewhere, not it's own export format. Damn.
+<br/> <br/>
+
+Ok, the other XMLs it can import are export formats of it's direct
+competitors: <a href="http://intensedebate.com/">Intense Debate</a>
+and <a href="http://js-kit.com/">JS-Kit</a> (both of which, incidentally,
+I had never heard of before). So maybe I can import my blogger comments
+into one of these, export it from there, and then import it into Disqus?
+Mmm, that just might work. (Hey, so Disqus is sorta forcing me to
+try out it's competitors. Ironic, huh?)
+<br/> <br/>
+
+Hard luck. JS-Kit's blogger importing is a paid service, and Intense
+Debate has disabled it's blogger importer "due to some bugs". Neither
+offer a Disqus importer. Aaargh.
+<br/> <br/>
 
