@@ -6,9 +6,24 @@ layout: base
   <div class="stuff">
         {% for post in site.posts %}
         <div class="subsection">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p><span class="date">{{ post.date | date_to_string }}</span>: &nbsp;
-          {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</a>' }}</p>
+          <p>
+            <span class="inlineheader">
+               <a href="{{ post.url }}">{{ post.title }}</a>
+            </span>
+            <span class="date">{{ post.date | date_to_string }}</span>
+            &nbsp;
+            {% if post.layout == 'blogger_post' %}
+                <a class="comment-count-non-link"
+                   href="{{ post.url | replace_first:'/blog','http://roop.blogspot.com' }}#disqus_thread"
+                ></a>
+            {% else %}
+                <a class="comment-count"
+                   href="{{ post.url }}#disqus_thread"
+                ></a>
+            {% endif %}
+            &nbsp;
+            {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</a>' }}
+          </p>
         </div>
         {% endfor %}
   </div>
