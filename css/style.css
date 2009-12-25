@@ -84,6 +84,7 @@ body {
 
 .comment-count, .comment-count-non-link,
 p a.comment-count, p a.comment-count-non-link
+span.comment-count, span.comment-count-non-link
 {
     font-size: 1em;
     background-image: url(/images/comment-count-bubble.png);
@@ -92,6 +93,11 @@ p a.comment-count, p a.comment-count-non-link
     padding: 10px;
     color: #595959;
     text-decoration: bold;
+}
+
+span.comment-count, span.comment-count-non-link {
+    background: none;
+    margin-left: -5px;
 }
 
 a:hover.comment-count-non-link {
