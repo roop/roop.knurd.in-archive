@@ -6,6 +6,10 @@ layout: base
   <div class="stuff">
         {% for post in site.posts %}
         <div class="subsection">
+            {% unless post.thumbnail == '' %}
+                <img src="{{ post.thumbnail }}" align="left"
+                     height="100px" style="margin: 10px" />
+            {% endunless %}
           <p>
             <span class="inlineheader">
                <a href="{{ post.url }}">{{ post.title }}</a>
