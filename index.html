@@ -8,7 +8,20 @@ title: knurd.in - roop's home
 {% for post in site.posts limit:1 %}
 <div id="chunk">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="date">{{ post.date | date_to_string }}</div>
+    <p>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        &nbsp;
+        {% if post.layout == 'blogger_post' %}
+            <a class="comment-count-non-link"
+               href="{{ post.url | replace_first:'/blog','http://roop.blogspot.com' }}#disqus_thread"
+               title="No. of comments"
+            onClick="return false;">?!</a>
+        {% else %}
+            <a class="comment-count"
+               href="{{ post.url }}#disqus_thread"
+            >?!</a>
+        {% endif %}
+    </p>
     <div class="stuff">
         <p> {{ post.content }} </p>
     </div>
