@@ -82,13 +82,20 @@ body {
     color: gray;
 }
 
-.comment-count, .comment-count-non-link {
+.comment-count, .comment-count-non-link,
+p a.comment-count, p a.comment-count-non-link
+{
     font-size: 1em;
+    background-image: url(/images/comment-count-bubble.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: #595959;
+    text-decoration: bold;
 }
 
-p a.comment-count-non-link {
-    text-decoration: none;
-    color: gray;
+a:hover.comment-count-non-link {
+    background-color: white;
 }
 
 #wordknurd {
@@ -153,7 +160,8 @@ p a.comment-count-non-link {
 .date, .date p {
     margin-left: 15px;
     font-size: 1em;
-    color: #777;
+    color: #595959;
+    text-decoration: bold;
 }
 
 .stuff, .stuff p {

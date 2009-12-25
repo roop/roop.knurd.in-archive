@@ -15,13 +15,15 @@ layout: base
             {% if post.layout == 'blogger_post' %}
                 <a class="comment-count-non-link"
                    href="{{ post.url | replace_first:'/blog','http://roop.blogspot.com' }}#disqus_thread"
-                ></a>
+                   title="No. of comments"
+                onClick="return false;">?!</a>
             {% else %}
                 <a class="comment-count"
                    href="{{ post.url }}#disqus_thread"
-                ></a>
+                >?!</a>
             {% endif %}
-            &nbsp;
+          </p>
+          <p>
             {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</a>' }}
           </p>
         </div>
