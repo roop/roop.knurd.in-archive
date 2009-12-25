@@ -22,7 +22,7 @@ categories: blog
    <title>{{ post.title }}</title>
    <link href="{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://http://www.knurd.in{{ post.id }}</id>
+   <id>http://www.knurd.in{{ post.id }}</id>
    <content type="html"
    {% if post.lang %} xml:lang="{{ post.lang }}" lang="{{ post.lang }}"
    {% else %} xml:lang="en" lang="en" {% endif %}
