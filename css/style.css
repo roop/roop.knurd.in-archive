@@ -100,6 +100,13 @@ span.comment-count, span.comment-count-non-link {
     margin-left: -5px;
 }
 
+a.comment-count, a.comment-count-non-link,
+a:hover.comment-count, a:hover.comment-count-non-link,
+a:visited.comment-count, a:visited.comment-count-non-link {
+    color: #595959;
+}
+
+
 a:hover.comment-count-non-link {
     background-color: white;
 }
