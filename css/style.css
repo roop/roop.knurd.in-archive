@@ -46,25 +46,31 @@ body {
 }
 
 #topbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
     margin: 0px;
     padding: 0px;
-    height:30px;
+    height:35px;
     background-color: #1a1a1a;
+    opacity: 0.2;
     width:100%;
 }
 
 #topbarcontent {
-    margin-right: 100px;
+    position: fixed;
+    top: 0px;
+    right: 100px;
 }
 
-#topbar img{ 
+#topbarcontent img{
     float:right;
     margin-top: 10px;
     margin-right: 10px;
     height: 30px;
 }
 
-#topbar span {
+#topbarcontent span {
     float: right;
     margin-top: 10px;
     margin-right: 20px;
