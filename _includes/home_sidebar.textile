@@ -1,3 +1,0 @@
-<div id="sidebar">
-{% include twitter.textile %}
-</div>
