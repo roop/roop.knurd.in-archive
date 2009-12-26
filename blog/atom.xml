@@ -8,8 +8,8 @@ categories: blog
       xml:base="http://www.knurd.in" >
  <id>http://www.knurd.in/{{ page.categories | join:'/' }}</id>
  <title>Knurd - roop's blog</title>
- <link href="{{ page.categories | join:'/' }}/atom.xml" rel="self"/>
- <link href="{{ page.categories | join:'/' }}/"/>
+ <link href="http://www.knurd.in/{{ page.categories | join:'/' }}/atom.xml" rel="self"/>
+ <link href="http://www.knurd.in/{{ page.categories | join:'/' }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <author>
    <name>Roopesh Chander</name>
@@ -19,7 +19,7 @@ categories: blog
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ post.url }}"/>
+   <link href="http://www.knurd.in{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://www.knurd.in{{ post.id }}</id>
    <content type="html"
