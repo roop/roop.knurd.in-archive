@@ -1,0 +1,12 @@
+<p>
+<a href=
+{% if page.categories.first == 'blog' %}
+"http://feeds.feedburner.com/roopsblog"
+{% else %}
+""
+{% endif %}
+>
+<img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png"
+align="right" alt="Atom feed">
+</a>
+</p>

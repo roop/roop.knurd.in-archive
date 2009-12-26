@@ -5,6 +5,9 @@ layout: base
 	var disqus_url = "{{ page.url | replace_first:'/blog','http://roop.blogspot.com' }}";
     /* var disqus_developer = 1; */
 </script>
+<div id="sidebar">
+{% include feedlink.textile %}
+</div>
 <div id="chunk">
     <h1>
         {% if page.previous %}

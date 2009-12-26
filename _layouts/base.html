@@ -7,7 +7,9 @@
    <title>{{ page.title }}</title>
    <meta name="author" content="Roopesh Chander" />
    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-   <link href="" rel="alternate" title="roop's blog" type="application/rss" />
+   {% if page.categories.first == 'blog' %}
+   <link href="http://feeds.feedburner.com/roopsblog" rel="alternate" title="roop's blog" type="application/rss+xml" />
+   {% endif %}
    <link rel="shortcut icon" href="/images/knurd-favicon.png"/>
 </head>
 <body>
