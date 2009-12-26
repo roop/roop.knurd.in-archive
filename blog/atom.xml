@@ -11,7 +11,6 @@ categories: blog
  <link href="{{ page.categories | join:'/' }}/atom.xml" rel="self"/>
  <link href="{{ page.categories | join:'/' }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://www.knurd.in/</id>
  <author>
    <name>Roopesh Chander</name>
    <email>roopeshchander@gmail.com</email>
