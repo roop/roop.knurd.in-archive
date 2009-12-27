@@ -6,6 +6,9 @@
         <li
           {% if page.categories.first == 'blog' %} class="active" {% endif %}
         > <a href="/blog/">blog</a> </li>
+        <li
+          {% if page.categories.first == 'about' %} class="active" {% endif %}
+        > <a href="/about.html">about</a> </li>
     </ul> 
 </div> <!-- navbar -->
 
