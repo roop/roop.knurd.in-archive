@@ -14,12 +14,14 @@ a img{border:none}
 h1, h2, h3, h5, h5, h6{font-weight:bold}
 
 /* Set out the link colors */
-p a, p a:visited, li a, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited {
+p a, p a:visited, li a, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited,
+div a, div a:visited {
 	color: #23aebb;
 	text-decoration:none
 }
 
-p a:hover, li a:hover, h1 a:hover, h2 a:hover, h3 a:hover, li.active a {
+p a:hover, li a:hover, h1 a:hover, h2 a:hover, h3 a:hover, li.active a,
+div a:hover {
 	color: #23aebb;
 	text-decoration: none;
     background-color: #e9e9e9;
@@ -192,6 +194,16 @@ a:hover.comment-count-non-link {
 
 .stuff {
     font-size: 1em;
+}
+
+.imageleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.imageright {
+    float: right;
+    margin-left: 20px;
 }
 
 #footer {
