@@ -3,7 +3,7 @@
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="CC License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
     </div>
     <div id="footer-left">
-        <span>All work Copyright © 2005-09 Roopesh Chander.</span>
+        <span>All work Copyright © 2005-2010 Roopesh Chander.</span>
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Some rights reserved.</a>
     </div>
     <div id="footer-right">
