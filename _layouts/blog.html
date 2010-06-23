@@ -6,8 +6,12 @@ layout: base
 {% include feedlink.textile %}
 </div>
 <div id="chunk">
+  {% if page.filter_tag != '' %}
+  <h1>Blog posts on {{ page.filter_tag }}</h1>
+  {% endif %}
   <div class="stuff">
         {% for post in site.posts %}
+        {% if page.filter_tag == '' or post.tags contains page.filter_tag %}
         <div class="subsection">
             {% unless post.thumbnail == '' %}
                 <img src="{{ post.thumbnail }}" align="left"
@@ -18,6 +22,11 @@ layout: base
                <a href="{{ post.url }}">{{ post.title }}</a>
             </span>
             <span class="date">{{ post.date | date_to_string }}</span>
+            <span class="date">
+                {% for tag in post.tags %}
+                    <a href="/blog/tag/{{ tag }}/">{{ tag }}</a>{% if tag != post.tags.last %},{% endif %}
+                {% endfor %}
+            </span>
             &nbsp;
             {% if post.layout == 'blogger_post' %}
                 <a class="comment-count-non-link"
@@ -34,6 +43,7 @@ layout: base
             {{ post.content | strip_html | strip_newlines | truncatewords: '50' | append:' <a href=' | append:post.url | append:'>read more</a>' }}
           </p>
         </div>
+        {% endif %}
         {% endfor %}
   </div>
 

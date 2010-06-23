@@ -1,0 +1,39 @@
+#!/usr/bin/ruby
+
+require 'pathname'
+require 'fileutils'
+
+if (ARGV.length < 2)
+    warn "Usage: create_tag blog <tagname>"
+    exit(1);
+end
+category = ARGV.shift;
+if (category != "blog")
+    warn "Usage: create_tag blog <tagname>"
+    exit(1);
+end
+tags = ARGV;
+programName = Pathname.new($0).realpath;
+jekyllRoot = File.dirname(File.dirname(programName));
+if (!File::exist?(jekyllRoot + "/_config.yml"))
+    warn "Error: Can't find jekyll root directory";
+    exit(1);
+end
+for tag in tags do
+    tagDir = jekyllRoot + "/" + category + "/tag/" + tag;
+    tagIndex = tagDir + "/index.html";
+    if (File::exist?(tagIndex))
+        warn "Warning: Overwriting " + tagIndex;
+    end
+    FileUtils.mkdir_p tagDir;
+    ti = File.open(tagIndex, "w");
+    ti << "---\n";
+    ti << "layout: blog\n";
+    ti << "title: " + category + " posts tagged \'" + tag + "\'\n";
+    ti << "categories: " + category + "\n";
+    ti << "filter_tag: " + tag + "\n";
+    ti << "---\n";
+    ti << "{{ content }}\n";
+    ti << "\n";
+    ti.close;
+end

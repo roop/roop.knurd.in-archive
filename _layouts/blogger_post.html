@@ -20,9 +20,14 @@ layout: base
     </h1>
     <p>
         <span class="date">{{ page.date | date_to_string }}</span>&nbsp;
+        <span class="date">
+            {% for tag in page.tags %}
+                <a href="/blog/tag/{{ tag }}/">{{ tag }}</a>{% if tag != page.tags.last %},{% endif %}
+            {% endfor %}
+        </span>&nbsp;
         <a class="comment-count" href="{{ page.url | replace_first:'/blog','http://roop.blogspot.com' }}#disqus_thread"
             onClick="showAndJumpToComments(); return false;">?!</a>
-    <p>
+    </p>
     <div class="stuff">
         <p>
            {{ page.content }}

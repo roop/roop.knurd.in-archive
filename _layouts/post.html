@@ -16,9 +16,14 @@ layout: base
     </h1>
     <p>
         <span class="date">{{ page.date | date_to_string }}</span>&nbsp;
+        <span class="date">
+            {% for tag in page.tags %}
+                <a href="/blog/tag/{{ tag }}/">{{ tag }}</a>{% if tag != page.tags.last %},{% endif %}
+            {% endfor %}
+        </span>&nbsp;
         <a class="comment-count" href="{{ page.url }}#disqus_thread"
             onClick="show('comments');return true;">?!</a>
-    <p>
+    </p>
     <div class="stuff">
         <p>
            {{ page.content }}
