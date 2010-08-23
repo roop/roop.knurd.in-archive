@@ -5,5 +5,5 @@ To preview the site:
 jekyll --server --auto
 
 To update the site:
-jekyll && appcfg.py update .
+jekyll && appcfg.py update . (login as: rheupeiti@gmail.com)
 
