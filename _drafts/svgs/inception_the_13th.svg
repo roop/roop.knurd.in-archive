@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.47pre4 r22446"
    sodipodi:docname="inception_on_fri_the_13th.svg"
-   inkscape:export-filename="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_on_fri_the_13th.png"
+   inkscape:export-filename="../blog/images/inception_the_13th.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -147,6 +147,13 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2879"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -157,7 +164,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="396.26908"
-     inkscape:cy="34.824221"
+     inkscape:cy="1651.0683"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -184,12 +191,13 @@
      id="layer1"
      transform="translate(-189.67776,-43.229942)">
     <image
-       y="50.54977"
-       x="200.84013"
-       id="image2853"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/1.png"
+       xlink:href="inception_the_13th_images/1.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/one.jpg" />
+       height="250"
+       id="image2853"
+       x="200.84013"
+       y="50.54977" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2857"
@@ -198,12 +206,13 @@
        x="201"
        y="50.290859" />
     <image
-       y="310.15897"
-       x="201.34521"
-       id="image3672"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/2.png"
+       xlink:href="inception_the_13th_images/2.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/two.png" />
+       height="250"
+       id="image3672"
+       x="201.34521"
+       y="310.15897" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2857-4"
@@ -212,12 +221,13 @@
        x="201"
        y="309.39496" />
     <image
-       y="569.76813"
-       x="200"
-       id="image3686"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/3.png"
+       xlink:href="inception_the_13th_images/3.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/4.png" />
+       height="250"
+       id="image3686"
+       x="200"
+       y="569.76813" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2857-5-7"
@@ -226,12 +236,13 @@
        x="201.67508"
        y="568.01434" />
     <image
-       y="826.34692"
-       x="201.3452"
-       id="image3722"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/4.png"
+       xlink:href="inception_the_13th_images/4.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/five.png" />
+       height="250"
+       id="image3722"
+       x="201.3452"
+       y="826.34692" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2857-5-6"
@@ -240,12 +251,13 @@
        x="201"
        y="825.58295" />
     <image
-       y="1088.9866"
-       x="201.34518"
-       id="image3782"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/5.png"
+       xlink:href="inception_the_13th_images/5.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/six.png" />
+       height="250"
+       id="image3782"
+       x="201.34518"
+       y="1088.9866" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2857-5-5"
@@ -254,12 +266,13 @@
        x="201"
        y="1089.2327" />
     <image
-       y="1345.2887"
-       x="189.67776"
-       id="image3796"
-       height="256.6142"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/6.png"
+       xlink:href="inception_the_13th_images/6.png"
        width="292.41895"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/5.png" />
+       height="256.6142"
+       id="image3796"
+       x="189.67776"
+       y="1345.2887" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 193.94929,1346.3166 c 0,-422.24379 1.01015,-421.23364 1.01015,-421.23364 l -1.01015,-880.853018 280.82241,0 0,1301.076458 0,0 0,0 0,0"
@@ -269,12 +282,13 @@
        d="m 193.39911,1344.4399 c 0,85.1052 1.01411,84.9016 1.01411,84.9016 l -1.01411,177.54 281.92275,0 0,-262.238 0,0 0,0 0,0"
        id="path3800-6" />
     <image
-       y="1627.3979"
-       x="203.89095"
-       id="image3836"
-       height="250"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/7.png"
+       xlink:href="inception_the_13th_images/7.png"
        width="267"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/six2.png" />
+       height="250"
+       id="image3836"
+       x="203.89095"
+       y="1627.3979" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:2.15966606;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3868"
@@ -295,24 +309,25 @@
          x="-1399.2893"
          y="576.63373">www.knurd.in</tspan></text>
     <image
-       y="215.53935"
-       x="400.3504"
+       sodipodi:absref="/home/roop/Projects/knurd/roop.github.com/_drafts/svgs/inception_the_13th_images/jason_mask.png"
+       xlink:href="inception_the_13th_images/jason_mask.png"
+       width="56.770901"
+       height="69.462173"
        id="image3923"
-       height="80.573853"
-       width="64.852119"
-       xlink:href="file:///home/roop/Projects/knurd/XpressSketch/jmask.png" />
+       x="408.43161"
+       y="226.65103" />
     <text
        xml:space="preserve"
-       style="font-size:24.06735611px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="339.41122"
-       y="283.63611"
+       style="font-size:16.81375694px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:medzicas;-inkscape-font-specification:medzicas"
+       x="329.38605"
+       y="275.17123"
        id="text3927"
-       sodipodi:linespacing="100%"><tspan
+       sodipodi:linespacing="100%"
+       transform="scale(0.98750112,1.0126571)"><tspan
          sodipodi:role="line"
-         id="tspan3929"
-         x="339.41122"
-         y="283.63611"
-         style="font-size:24.06735611px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Medzicas;-inkscape-font-specification:Medzicas Italic">Ref:</tspan></text>
+         id="tspan2898"
+         x="329.38605"
+         y="275.17123">I meant:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28.19182396px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -345,5 +360,31 @@
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 194.95944,1863.5959 c 279.81226,-2.0203 279.81226,-2.0203 279.81226,-2.0203"
        id="path3945" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.47546768px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="339.12405"
+       y="106.32809"
+       id="text2867"
+       sodipodi:linespacing="100%"
+       transform="scale(1.0448466,0.9570783)"><tspan
+         sodipodi:role="line"
+         id="tspan2869"
+         x="339.12405"
+         y="106.32809"
+         style="font-size:23.47546768px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:medzicas;-inkscape-font-specification:medzicas">*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:23.47546768px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="293.15414"
+       y="299.95715"
+       id="text2867-5"
+       sodipodi:linespacing="100%"
+       transform="scale(1.0448466,0.9570783)"><tspan
+         sodipodi:role="line"
+         id="tspan2869-5"
+         x="293.15414"
+         y="299.95715"
+         style="font-size:23.47546768px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:medzicas;-inkscape-font-specification:medzicas">*</tspan></text>
   </g>
 </svg>
