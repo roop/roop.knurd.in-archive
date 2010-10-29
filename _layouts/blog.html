@@ -11,9 +11,9 @@ layout: base
   {% endif %}
   <div class="stuff">
         {% for post in site.posts %}
-        {% if page.filter_tag == '' or post.tags contains page.filter_tag %}
+        {% if page.filter_tag == null or post.tags contains page.filter_tag %}
         <div class="subsection">
-            {% unless post.thumbnail == '' %}
+            {% unless post.thumbnail == null %}
                 <img src="{{ post.thumbnail }}" align="left"
                      height="100px" style="margin: 10px" />
             {% endunless %}
